@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# lists of bash processes
+ps -aux | less
