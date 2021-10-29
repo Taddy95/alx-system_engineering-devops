@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# Initialize the counter
+i=0
+# Declare an infinite loop
+while [ $i -le 10 ];
+do
+	echo "Best school"
+	if [ $i == 9 ];
+	then
+		echo "Hi"
+	fi
+	# Increment the value of i by 1
+	((i +=1))
+done
