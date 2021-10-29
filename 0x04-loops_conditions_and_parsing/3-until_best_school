@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Initialize the counter
+i=0
+# Iterate the loop for 10 times
+until [ $i == 10 ];
+do
+	echo "Best School"
+	((i += 1))
+done
