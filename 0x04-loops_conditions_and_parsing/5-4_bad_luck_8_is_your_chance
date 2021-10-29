@@ -3,19 +3,15 @@
 # Initialize the counter
 i=1
 # Declare an infinite loop
-while :
-do
-	echo "Best School"
-	if [ $i == 3 ]
+while [ $i -le 10 ]; do
+	if [ $i -eq 4 ];
 	then
 		echo "bad luck"
-	elif [ $i == 6 ]
+	elif [ $i -eq 8 ];
 	then
 		echo "good luck"
-	elif [ $i == 8 ]
-	then
-		exit 0
+	else
+		echo "Best School"
 	fi
-
 	((i++))
 done
