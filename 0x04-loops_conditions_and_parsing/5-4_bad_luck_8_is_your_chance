@@ -3,11 +3,12 @@
 # Initialize the counter
 i=1
 # Declare an infinite loop
-while [ $i -le 10 ]; do
-	if [ $i -eq 4 ];
+while [ $i -le 10 ] 
+do
+	if [ $i -eq 4 ]
 	then
 		echo bad luck
-	elif [ $i -eq 8 ];
+	elif [ $i -eq 8 ]
 	then
 		echo good luck
 	else
