@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#names of all files in the current directory
+for file in *;
+	do
+	cut -d '-' -f 2- <<< "$file"
+done
